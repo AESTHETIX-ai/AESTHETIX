@@ -1,0 +1,48 @@
+// lib.rs (Solana Smart Contract)
+
+use anchor_lang::prelude::*;
+use std::str::FromStr;
+
+#[program]
+pub mod artwork_storage {
+    use super::*;
+
+    // Structure to store artwork details
+    pub fn upload_artwork(ctx: Context<UploadArtwork>, image_url: String, description: String) -> Result<()> {
+        let artwork = &mut ctx.accounts.artwork;
+        artwork.image_url = image_url;
+        artwork.description = description;
+        artwork.uploader = ctx.accounts.uploader.key();
+        artwork.timestamp = Clock::get()?.unix_timestamp;
+
+        Ok(())
+    }
+
+    // Function to fetch all uploaded artworks (Note: Solana doesn't support return of large data natively)
+    pub fn get_artworks(ctx: Context<GetArtworks>) -> Result<Vec<Artwork>> {
+        Ok(vec![])  // Placeholder: Solana smart contracts don't support complex return types directly
+    }
+}
+
+#[account]
+pub struct Artwork {
+    pub image_url: String,
+    pub description: String,
+    pub uploader: Pubkey,
+    pub timestamp: i64,
+}
+
+#[derive(Accounts)]
+pub struct UploadArtwork<'info> {
+    #[account(init, payer = uploader, space = 8 + 128 + 128 + 32 + 8)]
+    pub artwork: Account<'info, Artwork>,
+    #[account(mut)]
+    pub uploader: Signer<'info>,
+    pub system_program: Program<'info, System>,
+}
+
+#[derive(Accounts)]
+pub struct GetArtworks<'info> {
+    #[account(signer)]
+    pub user: AccountInfo<'info>,
+}
