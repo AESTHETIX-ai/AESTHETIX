@@ -1,0 +1,20 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Artwork Display</title>
+</head>
+<body>
+    <h1>Generated AI Artworks</h1>
+    <div>
+        {% for artwork in artworks %}
+            <div>
+                <img src="{{ artwork.url }}" alt="AI Artwork" width="500">
+                <p>{{ artwork.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
