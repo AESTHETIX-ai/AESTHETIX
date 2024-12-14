@@ -2,7 +2,8 @@
 Based on the AI16Z framework, an AI agent will be responsible for creating artistic images in response to Twitter personalities. The generated artwork will be uploaded to the blockchain, and exceptional pieces will be showcased on the official platform.
 # AI Artist Agent with AI16Z Framework for Twitter Interaction and Blockchain Integration
 
-![Uploading 7df24373dddc3215f7ec42025a9cd93.png…]()
+![7df24373dddc3215f7ec42025a9cd93](https://github.com/user-attachments/assets/686751b0-02b1-438a-bf6f-ad87165bfef4)
+
 
 ## Overview!
 
