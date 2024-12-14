@@ -13,7 +13,8 @@ The system ensures that the generated artworks are stored securely, with ownersh
 - **Official Platform**: An official web platform where the best artworks are displayed.
 - **Smart Contracts**: Ethereum smart contracts handle artwork storage and ownership tracking.
 
----
+![4743d905b16617e1172f2a9a8e45488](https://github.com/user-attachments/assets/62a0a33a-6bfb-4a02-ba48-d3338c2a8b07)
+
 
 ## Table of Contents
 
