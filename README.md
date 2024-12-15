@@ -9,7 +9,7 @@ The system ensures that the generated artworks are stored securely, with ownersh
 
 ### Key Features:
 - **AI Agent**: The agent listens to Twitter posts and generates artworks using the content.
-- **Blockchain Storage**: Generated artworks are stored on Ethereum blockchain, ensuring decentralization and secure ownership.
+- **Blockchain Storage**: Generated artworks are stored on Solana blockchain, ensuring decentralization and secure ownership.
 - **Official Platform**: An official web platform where the best artworks are displayed.
 - **Smart Contracts**: Solana smart contracts handle artwork storage and ownership tracking.
 
@@ -55,7 +55,7 @@ The system is composed of the following components:
 2. **Twitter API Integration**: Captures tweet content from selected Twitter users and sends it to the AI agent for artwork generation.
 3. **Blockchain Storage**: Generated artwork is uploaded to the Ethereum blockchain, ensuring transparent and immutable storage.
 4. **Official Display Platform**: A web application powered by Flask that allows users to view the artworks stored on the blockchain.
-5. **Smart Contracts**: Ethereum-based smart contracts handle uploading, managing, and tracking ownership of the artworks.
+5. **Smart Contracts**: Solana-based smart contracts handle uploading, managing, and tracking ownership of the artworks.
 
 ---
 
