@@ -38,7 +38,7 @@ This project uses the following technologies:
 
 - **AI16Z Framework**: The framework used to build the AI agent for generating artwork.
 - **Python**: Python is used to interact with the **Twitter API**, generate art via the **OpenAI DALL·E API**, and save the generated images.
-- **Node.js**: Node.js is used to interact with the **Ethereum blockchain** through the **Web3.js** library.
+- **Node.js**: Node.js is used to interact with the **Solana blockchain** through the **Web3.js** library.
 - **Solidity**: Solidity is used to write smart contracts that handle storing artwork metadata on the blockchain.
 - **Flask**: Flask is used to create the web-based platform to display artworks.
 - **OpenAI DALL·E API**: This API is used for generating artistic images based on textual descriptions.
