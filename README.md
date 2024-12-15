@@ -5,13 +5,13 @@
 
 This project aims to create an **AI Artist Agent** powered by the **AI16Z framework** that interacts with **Twitter personalities**. It generates **artistic images** based on Twitter content, stores these images on a **blockchain**, and displays outstanding artworks on an official platform. The goal is to combine **AI-driven art generation**, **Twitter integration**, and **blockchain-based storage** into a seamless ecosystem.
 
-The system ensures that the generated artworks are stored securely, with ownership tracked through **Ethereum blockchain** technology. The project is designed for artists, creators, and technology enthusiasts interested in AI, art, and blockchain.
+The system ensures that the generated artworks are stored securely, with ownership tracked through **Solana blockchain** technology. The project is designed for artists, creators, and technology enthusiasts interested in AI, art, and blockchain.
 
 ### Key Features:
 - **AI Agent**: The agent listens to Twitter posts and generates artworks using the content.
 - **Blockchain Storage**: Generated artworks are stored on Ethereum blockchain, ensuring decentralization and secure ownership.
 - **Official Platform**: An official web platform where the best artworks are displayed.
-- **Smart Contracts**: Ethereum smart contracts handle artwork storage and ownership tracking.
+- **Smart Contracts**: Solana smart contracts handle artwork storage and ownership tracking.
 
 ---
 
@@ -43,7 +43,7 @@ This project uses the following technologies:
 - **Flask**: Flask is used to create the web-based platform to display artworks.
 - **OpenAI DALL·E API**: This API is used for generating artistic images based on textual descriptions.
 - **Twitter API**: This API is used to monitor tweets from specified users.
-- **Ethereum Blockchain**: Ethereum is used for decentralized storage of artwork and to track ownership.
+- **Solana Blockchain**: Solana is used for decentralized storage of artwork and to track ownership.
 
 ---
 
@@ -67,7 +67,7 @@ Follow these instructions to get the project up and running.
 
 1. **Python 3.x** – For backend operations and AI integration.
 2. **Node.js** and **npm** – For managing blockchain interactions.
-3. **Ethereum Wallet** – MetaMask or any other wallet to interact with Ethereum.
+3. **Solana Wallet** – Phantom or any other wallet to interact with Solana.
 4. **Twitter Developer Account** – To access Twitter API keys.
 
 
